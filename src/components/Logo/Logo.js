@@ -9,11 +9,11 @@ const Logo = () => {
       <Tilt
         className="Tilt br2 shadow-2"
         options={{ max: 150 }}
-        style={{ height: 150, width: 150 }}
+        style={{ height: 100, width: 100 }}
       >
         <div className="Tilt-inner pa3 tc">
           <img
-            style={{ paddingTop: "5px", height: 100, width: 100 }}
+            style={{ paddingTop: "5px", height: 50, width: 50 }}
             alt="logo"
             src={brain}
           ></img>
