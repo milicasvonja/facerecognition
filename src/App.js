@@ -144,7 +144,7 @@ class App extends Component {
               this.setState(Object.assign(this.state.user, { entries: count }));
             });
         }
-        console.log("id John is: ", this.state.user.id);
+        console.log(this.state.user.id);
         //console.log(response);
         this.displayFaceBox(this.calculateFaceLocation(response));
       })
